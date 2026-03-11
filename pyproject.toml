@@ -1,0 +1,30 @@
+[project]
+name = "multi-doc-rag"
+version = "0.1.0"
+description = "Multi document RAG chatbot"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "docx2txt>=0.9",
+    "faiss-cpu>=1.13.2",
+    "fastapi>=0.135.1",
+    "ipykernel>=7.2.0",
+    "langchain>=1.2.11",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.18",
+    "langchain-google-genai>=4.2.1",
+    "langchain-groq>=1.1.2",
+    "langchain-openai>=1.1.11",
+    "langsmith>=0.7.16",
+    "openai>=2.26.0",
+    "pandas>=2.3.3",
+    "python-dotenv>=1.2.2",
+    "python-multipart>=0.0.22",
+    "streamlit>=1.55.0",
+    "structlog>=25.5.0",
+    "uvicorn[standard]>=0.41.0",
+]
+
+[tool.setuptools]
+packages = ["multi_doc_chat"]
