@@ -38,8 +38,6 @@ list_of_files = [
     "backend/__init__.py",
     "backend/app.py",
     "config/config.yaml",
-    "dvc.yaml",
-    "params.yaml",
     "main.py",
     "Dockerfile.api",
     "Dockerfile.ui",
