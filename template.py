@@ -45,6 +45,8 @@ list_of_files = [
     "docker-compose.yml",
     "requirements.txt",
     "notebooks/experiments.ipynb",
+    "notebooks/rag.ipynb",
+    "notebooks/evaluation.ipynb",
     "streamlit_app.py",
     "run_evaluations.py",
     "test.py",

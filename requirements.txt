@@ -7,6 +7,7 @@ langchain-community
 langchain-openai
 langchain-groq
 langchain-google-genai
+langchain-text-splitters
 langsmith
 
 docx2txt
@@ -20,3 +21,5 @@ openai
 pandas 
 
 streamlit
+tiktoken
+rapidocr-onnxruntime
