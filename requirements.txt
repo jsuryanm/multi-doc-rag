@@ -5,10 +5,15 @@ langchain
 langchain-core
 langchain-community
 langchain-openai
+langchain-huggingface
 langchain-groq
 langchain-google-genai
 langchain-text-splitters
 langsmith
+
+transformers
+sentence-transformers
+torch
 
 docx2txt
 ipykernel
@@ -20,6 +25,12 @@ uvicorn[standard]
 openai
 pandas 
 
+PyYAML
+
 streamlit
 tiktoken
 rapidocr-onnxruntime
+
+ipywidgets
+jupyter
+notebook
