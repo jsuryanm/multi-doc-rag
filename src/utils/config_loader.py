@@ -36,5 +36,5 @@ def load_config(config_path: str | None = None) -> dict:
         return yaml.safe_load(f) or f
 
 
-if __name__ == "__main__":
-    load_config()
+# if __name__ == "__main__":
+#     load_config()
