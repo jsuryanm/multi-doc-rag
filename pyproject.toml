@@ -38,4 +38,4 @@ dependencies = [
 ]
 
 [tool.setuptools]
-packages = ["multi_doc_chat"]
+packages = ["src"]

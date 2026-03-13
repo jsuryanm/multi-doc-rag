@@ -37,7 +37,6 @@ list_of_files = [
     f"{project_name}/tests/unit/test_retrieval.py",
     "backend/__init__.py",
     "backend/app.py",
-    "config/config.yaml",
     "data/AgenticAI.txt",
     "main.py",
     "Dockerfile.api",

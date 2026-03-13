@@ -1,0 +1,22 @@
+embedding_model:
+  provider: "huggingface"
+  model_name: "all-MiniLM-L6-v2"
+
+retriever: 
+  top_k: 10 
+  search_type: "mmr"
+  fetch_k: 20 # no of docs to fetch before mmr re-ranking must be > top_k
+  lambda_mult: 0.5 # diversity vs relevance  
+
+llm:
+  groq:
+    provider: "groq"
+    model_name: "llama-3.3-70b-versatile"
+    temperature: 0
+    max_output_tokens: 2048
+
+  openai:
+    provider: "openai"
+    model_name: "gpt-5-nano"
+    temperature: 0 
+    max_output_tokens: 2048
