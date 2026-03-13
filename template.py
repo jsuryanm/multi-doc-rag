@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(level=logging.INFO,
                     format="[%(asctime)s]: %(message)s")
 
-project_name = "multi_doc_chat"
+project_name = "src"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
@@ -13,11 +13,11 @@ list_of_files = [
     f"{project_name}/config/config.yaml",
     f"{project_name}/exception/__init__.py",
     f"{project_name}/exception/custom_exception.py",
-    f"{project_name}/src/__init__.py",
-    f"{project_name}/src/document_chat/__init__.py",
-    f"{project_name}/src/document_chat/retrieval.py",
-    f"{project_name}/src/document_ingestion/__init__.py",
-    f"{project_name}/src/document_ingestion/data_ingestion.py",
+    f"{project_name}/components/__init__.py",
+    f"{project_name}/components/document_chat/__init__.py",
+    f"{project_name}/components/document_chat/retrieval.py",
+    f"{project_name}/components/document_ingestion/__init__.py",
+    f"{project_name}/components/document_ingestion/data_ingestion.py",
     f"{project_name}/logger/__init__.py",
     f"{project_name}/logger/custom_logger.py",
     f"{project_name}/model/__init__.py",
