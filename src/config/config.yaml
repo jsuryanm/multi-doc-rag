@@ -1,6 +1,11 @@
 embedding_model:
-  provider: "huggingface"
-  model_name: "all-MiniLM-L6-v2"
+  active_provider: "huggingface"
+
+  huggingface:
+    model_name: "all-MiniLM-L6-v2"
+  
+  openai:
+    model_name: "text-embeddings-3-small"
 
 retriever: 
   top_k: 10 
@@ -9,6 +14,8 @@ retriever:
   lambda_mult: 0.5 # diversity vs relevance  
 
 llm:
+  active_provider: "groq"
+  
   groq:
     provider: "groq"
     model_name: "llama-3.3-70b-versatile"
